@@ -50,8 +50,10 @@ dp = Dispatcher()
 
 def get_weather_data(city):
     url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={WEATHER_API_KEY}&units=metric&lang=ru"
+    logger.info(f"Запрос погоды для города: {city} по URL: {url.replace(WEATHER_API_KEY, 'HIDDEN')}")
     try:
         response = requests.get(url)
+        logger.info(f"Ответ API для {city}: Статус {response.status_code}, Тело: {response.text}")
         if response.status_code == 200:
             return response.json()
         return None

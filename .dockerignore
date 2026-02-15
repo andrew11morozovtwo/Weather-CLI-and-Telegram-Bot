@@ -1,0 +1,12 @@
+.git
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.db
+.DS_Store
+output.txt
+weather.py
+bot.py
+README.md
+test_env.example
