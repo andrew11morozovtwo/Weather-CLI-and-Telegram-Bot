@@ -1,1 +1,9 @@
-["Moscow", "Saint Petersburg", "Guildford"]
+{
+  "cities": [
+    "Saint Petersburg",
+    "Лондон",
+    "Веллингтон",
+    "Багдад"
+  ],
+  "delete_after_minutes": 3
+}
