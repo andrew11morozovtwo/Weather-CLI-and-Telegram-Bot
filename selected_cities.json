@@ -1,9 +1,1 @@
-{
-  "cities": [
-    "Saint Petersburg",
-    "Лондон",
-    "Веллингтон",
-    "Багдад"
-  ],
-  "delete_after_minutes": 3
-}
+{"cities": ["Saint Petersburg", "Гилфорд"], "delete_after_minutes": 710}
